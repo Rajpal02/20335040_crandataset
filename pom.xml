@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+
   <groupId>ie.tcd.singhr3</groupId>
   <artifactId>cran_data</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
-  <name>singhr3</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.singhr3.com</url>
+
+  <name>cran_data</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -34,8 +35,6 @@
 	<artifactId>lucene-analyzers-common</artifactId>
 	<version>8.10.1</version>
 	</dependency>
-
-    
     
     <dependency>
       <groupId>junit</groupId>
@@ -93,7 +92,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-shade-plugin</artifactId>
-        <version>3.2.4</version>
+        <version>3.2.2</version>
         <executions>
           <execution>
             <phase>package</phase>
